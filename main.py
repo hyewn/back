@@ -5,7 +5,7 @@ import uvicorn
 
 app = FastAPI()
 
-origins = [ "http://127.0.0.1", "http://127.0.0.1:5501"]
+origins = [ "http://18.235.40.243", "http://18.235.40.243:5500"]
 
 app.add_middleware(
   CORSMiddleware,
